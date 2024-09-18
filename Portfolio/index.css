@@ -5,23 +5,25 @@
 
 .main {
     width: 100%;
-    background:url(./image/AdobeStock_6.jpeg);
+    background: url(./image/AdobeStock_6.jpeg);
     background-position: center;
     background-size: cover;
     height: 109vh;
 }
+
 .navbar {
     width: 1200px;
     height: 75px;
     margin: auto;
 }
+
 .icon {
     width: 200px;
     float: left;
     height: 70px;
 }
 
-.logo{
+.logo {
     color: #ff7200;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +31,7 @@
     float: left;
     padding-top: 10px;
 }
+
 .menu {
     width: 600px;
     float: left;
@@ -40,6 +43,7 @@
     margin-top: 10px;
 
 }
+
 ul {
     float: left;
     display: flex;
@@ -62,8 +66,9 @@ ul li a {
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
+
 ul li a:hover {
-    color:#ff7200;
+    color: #ff7200;
 }
 
 .search {
@@ -71,39 +76,55 @@ ul li a:hover {
     float: left;
     margin-right: -100px;
     padding-right: -100px;
+    margin-left: 100px;
     /* color: #ff7200; */
 }
-.srch{
+
+.srch {
     font-family: 'Times New Roman', Times, serif;
     width: 200px;
     height: 40px;
-    background:transparent;
+    background: transparent;
     border: 1px solid #ff7200;
     margin-top: 13px;
+    margin: 5px;
     color: #fff;
     border-right: none;
     font-size: 16px;
-    float: left;
-    padding: 10px ;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    border-radius: 10px;
 }
-.btn {
+
+.btns {
     width: 100px;
     height: 40px;
     background: #ff7200;
     border: 2px solid #ff7200;
     margin-top: 13px;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 15px;
+    font-weight: bold;
+    /* border-left: none; */
+    border-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
-.btn:focus { 
+
+.btns:focus {
     outline: none;
 }
+.btns:hover{
+    color: black;
+    background: white;
+    border: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.srch:focus{
+.srch:focus {
     outline: none;
 }
 
@@ -113,8 +134,9 @@ ul li a:hover {
     margin: auto;
     color: #fff;
     position: relative;
-    
+
 }
+
 .content .par {
     padding-left: 20px;
     padding-bottom: 25px;
@@ -122,6 +144,7 @@ ul li a:hover {
     letter-spacing: 1.2px;
     line-height: 30px;
 }
+
 .content h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -129,6 +152,7 @@ ul li a:hover {
     margin-top: 9%;
     letter-spacing: 2px;
 }
+
 .content .cn {
     width: 160px;
     height: 40px;
@@ -142,19 +166,23 @@ ul li a:hover {
     transition: .4s ease;
 
 }
+
 .content .cn a {
     text-decoration: none;
     color: black;
     transition: .3s ease;
 }
- .cn:hover{
+
+.cn:hover {
     background-color: #fff;
- }
- .content span {
+}
+
+.content span {
     color: #ff7200;
     font-size: 60px;
- }
- .form{
+}
+
+.form {
     width: 250px;
     height: 380px;
     background: rgba(0, 0, 0, 0.8);
@@ -163,9 +191,9 @@ ul li a:hover {
     left: 870px;
     border-radius: 10px;
     padding: 25px;
- }
+}
 
- .form h2{
+.form h2 {
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -175,8 +203,9 @@ ul li a:hover {
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
- }
- .form input{
+}
+
+.form input {
     width: 240px;
     height: 35px;
     background: transparent;
@@ -189,67 +218,69 @@ ul li a:hover {
     letter-spacing: 1px;
     margin-top: 30px;
     font-family: sans-serif;
-    
- }
 
- .form input:focus { 
+}
+
+.form input:focus {
     outline: none;
- }
+}
 
- ::placeholder{
-    color:#fff;
+::placeholder {
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
- }
+}
 
- .btn {
+.btn {
     width: 240px;
     height: 40px;
-    background:#ff7200;
+    background: #ff7200;
     border: none;
     margin-top: 30px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
- }
+}
 
- .btn:hover{
+.btn:hover {
     background: #fff;
     color: #ff7200;
- }
-  .btn a {
+}
+
+.btn a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-  }
+}
 
-  .form .link {
+.form .link {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
     font-weight: bold;
-  }
+}
 
-  .form .link a {
+.form .link a {
     text-decoration: none;
     color: #ff7200;
     font-weight: bold;
-  }
-  .liw{
+}
+
+.liw {
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
     font-weight: bold;
-  }
+}
 
-  .icon a {
+.icon a {
     text-decoration: none;
     color: #fff;
     width: 250px;
-  }
+}
 
-  .icon ion-icon{
+.icon ion-icon {
     color: #fff;
     font-size: 18px;
     padding-left: 14px;
@@ -257,9 +288,9 @@ ul li a:hover {
     transition: 0.3s ease;
     width: -250px;
     float: left;
-  }
+}
 
-  .icon ion-icon:hover {
+.icon ion-icon:hover {
     color: #ff7200;
 
-  }
+}
